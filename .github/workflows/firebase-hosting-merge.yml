@@ -25,6 +25,7 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HYDRA_COMPOSER }}'
           channelId: live
-          projectId: hydra-cast-receiver
+          projectId: hydra-composer
+          target: hydra-cast-receiver
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels

@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "dist",
+    "target": "hydra-cast-receiver",
     "ignore": [
       "firebase.json",
       "**/.*",
