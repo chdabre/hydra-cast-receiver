@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "hydra-composer"
+  },
+  "targets": {
+    "hydra-composer": {
+      "hosting": {
+        "hydra-cast-receiver": [
+          "hydra-cast-receiver"
+        ]
+      }
+    }
   }
 }
